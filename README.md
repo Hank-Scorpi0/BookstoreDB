@@ -8,7 +8,7 @@ Modules
   Frontend
   
   
-#Frontend
+# Frontend
 
 The code for the user interface starts at line 41. This uses basic grid/pack methods to create a window to workout of. 
 
@@ -17,13 +17,13 @@ For each of teh buttons you will see a "Command" element that references the fun
 These funcitons reference the back end. 
 
 
-#Backend
+# Backend
 
 Each function defined on the backend can be associated to a button on the front. connect() looks to see if a database already exists and creates one if a DB is not found. 
 
 All backend functions can be executed within the command line with examples starting at line 49. 
 
-#Making an executable
+# Making an executable
 
 In command line:
   pip install pyinstaller
